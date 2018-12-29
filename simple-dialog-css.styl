@@ -1,0 +1,37 @@
+.dialog
+	position relative
+	height 100%
+	user-select: text
+	.head
+		padding 20px
+		padding-bottom 10px
+		.title
+			line-height 24px
+			font-size 18px
+			color #303133
+		.icon-close
+			float right
+			color #909399
+			font-size 14px
+			cursor pointer
+			&:hover
+				color themeColor
+	.content
+		overflow auto
+		padding 10px 20px
+		max-height 550px
+	.foot
+		padding 10px 20px
+		overflow auto
+		.errMessage
+			display inline-block
+			width 50%
+			overflow hidden
+			text-overflow ellipsis
+			color red
+			margin-top 10px
+		button
+			float right
+			margin-left 20px
+			span
+				font-size 14px	
